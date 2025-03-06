@@ -1,0 +1,13 @@
+edu\eci\cvds\project\controller\ReservationController.class
+edu\eci\cvds\project\repository\ReservationRepository.class
+edu\eci\cvds\project\repository\LaboratoryRepository.class
+edu\eci\cvds\project\repository\UserRepository.class
+edu\eci\cvds\project\service\LaboratoryService.class
+edu\eci\cvds\project\model\User.class
+edu\eci\cvds\project\controller\UserController.class
+edu\eci\cvds\project\Lab04Application.class
+edu\eci\cvds\project\service\ReservationService.class
+edu\eci\cvds\project\service\UserRepository.class
+edu\eci\cvds\project\model\Reservation.class
+edu\eci\cvds\project\model\Laboratory.class
+edu\eci\cvds\project\controller\LaboratoryController.class

@@ -59,4 +59,3 @@ jobs:
         with:
           app-name: PROJECT-CVDS-LAB05
           package: '*.jar'
-          publish-profile: ${{ secrets.AZURE_APPSERVICE_PASSWORD }}

@@ -29,15 +29,15 @@ public class LaboratoryService implements servicesLab {
         return laboratoryRepository.save(laboratory);
     }
 
-//    private boolean isLaboratoryAvailable(Laboratory laboratory, LocalDateTime localDateTime) {
-//        for(Reservation reservation : laboratory.getReservations()){
-//            LocalDateTime start = reservation.getStartDateTime();
-//            LocalDateTime end = reservation.getEndDateTime();
-//            if (!localDateTime.isBefore(start) && !localDateTime.isAfter(end)) {
-//                return false;
-//            }
-//        }
-//        return true;
-//    }
+    public boolean isLaboratoryAvailable(Laboratory laboratory, LocalDateTime localDateTime) {
+        for(Reservation reservation : laboratory.getReservations()){
+            LocalDateTime start = reservation.getStartDateTime();
+            LocalDateTime end = reservation.getEndDateTime();
+            if (!localDateTime.isBefore(start) && !localDateTime.isAfter(end)) {
+                return false;
+            }
+        }
+        return true;
+    }
 
 }
